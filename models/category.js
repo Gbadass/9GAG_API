@@ -5,5 +5,5 @@ const CategorySchema = new mongoose.Schema({
   modified_at:{type:Date,default:() =>Date.now()}
 })
 
-const Category = mongoose.model('category',CategorySchema);
+const Category = mongoose.model('categories',CategorySchema);
 module.exports = Category
